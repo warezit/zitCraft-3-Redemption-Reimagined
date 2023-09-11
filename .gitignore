@@ -23,5 +23,12 @@
 hs_err_pid*
 replay_pid*
 
-# PAX Stuff
-/PAX
+### PAX ###
+pax
+pax.exe
+libssl*.dll
+libcrypto*.dll
+cacert.pem
+
+### Modpack ###
+.out/
