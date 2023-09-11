@@ -1,6 +1,6 @@
 {
   "minecraft": {
-    "version": "1.19.4",
+    "version": "1.19.2",
     "modLoaders": [
       {
         "id": "fabric-0.14.22",
