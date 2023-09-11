@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.19.4",
+    "modLoaders": [
+      {
+        "id": "fabric-0.14.22",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "warezit",
+  "name": "zitCraft 3",
+  "files": []
+}
