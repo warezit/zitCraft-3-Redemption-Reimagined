@@ -14,7 +14,7 @@
     - [Creating a server-version of the modpack](#creating-a-server-version-of-the-modpack)
 
 ## Modpack Homepage
-**zitCraft 3: Redemption Reimagined**: https://www.curseforge.com/minecraft/modpacks/zitcraft-3
+**zitCraft 3: Redemption Reimagined**: https://modrinth.com/modpack/zitcraft-3
 
 ## Description
 
