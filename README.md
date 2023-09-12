@@ -8,6 +8,7 @@
     - [Modlist](#modlist)
   - [\[For Developers: More Info\]](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
+    - [Creating a server-version of the modpack](#creating-a-server-version-of-the-modpack)
 
 ## Modpack Homepage
 **zitCraft 3: Redemption Reimagined**: https://www.curseforge.com/minecraft/modpacks/zitcraft-3
@@ -51,7 +52,7 @@ These steps show I created this modpack, so I can refer back to these steps late
 - Go here to find you CurseForge API Token: https://legacy.curseforge.com/account/api-tokens
 - Go your repo's `Settings > Actions > General > Workflow permissions`. Enable two options: `Read and write permissions` and `Allow GitHub Actions to create and approve pull requests`.
 
-- ### Creating a server-version of the modpack
+### Creating a server-version of the modpack
 
 - ServerPackCreator: https://github.com/Griefed/ServerPackCreator
 - ServerStarter: https://github.com/BloodyMods/ServerStarter
