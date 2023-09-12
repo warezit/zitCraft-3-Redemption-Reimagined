@@ -7,7 +7,6 @@ on:
 
 env:
   PROJECT_ID: "912352"
-  GITHUB_TOKEN: "1282fe63-af95-413a-8e1c-3a0904d2c5f5"
 
 jobs:
   modpack-info:
