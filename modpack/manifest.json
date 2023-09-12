@@ -32,6 +32,14 @@
       }
     },
     {
+      "projectID": 223794,
+      "fileID": 4733125,
+      "required": true,
+      "__meta": {
+        "name": "Applied Energistics 2"
+      }
+    },
+    {
       "projectID": 227639,
       "fileID": 4490392,
       "required": true,
@@ -273,6 +281,19 @@
       "__meta": {
         "name": "Enhanced Block Entities",
         "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 459929,
+      "fileID": 4570564,
+      "required": true,
+      "__meta": {
+        "name": "Applied Energistics 2 Wireless Terminals",
+        "dependencies": [
+          348521,
+          223794,
           306612
         ]
       }
