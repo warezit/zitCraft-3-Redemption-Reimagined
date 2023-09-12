@@ -2,13 +2,16 @@
 # zitCraft 3
 
 - [zitCraft 3](#zitcraft-3)
+  - [Modpack Homepage](#modpack-homepage)
   - [Description](#description)
     - [Key Features](#key-features)
     - [Rediscover, Rebuild, and Redeem](#rediscover-rebuild-and-redeem)
-  - [Modpack Homepage](#modpack-homepage)
   - [\[For Developers\] More Info](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
     - [Running the modpack](#running-the-modpack)
+
+## Modpack Homepage
+zitCraft 3: https://legacy.curseforge.com/minecraft/modpacks/zitcraft-3
 
 ## Description
 
@@ -24,9 +27,6 @@ Embark on a journey of redemption in zitCraft 3, a modpack that marks a triumpha
 ### Rediscover, Rebuild, and Redeem
 
 zitCraft 3 is an invitation to rekindle your passion for Minecraft, to forge a path of redemption in a world that welcomes you back with open arms. Are you ready to embark on this journey of renewal and rediscovery?
-
-## Modpack Homepage
-zitCraft 3: https://legacy.curseforge.com/minecraft/modpacks/zitcraft-3
 
 ## [For Developers] More Info
 
