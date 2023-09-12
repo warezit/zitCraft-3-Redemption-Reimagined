@@ -22,6 +22,14 @@
       "__meta": {
         "name": "Just Enough Items (JEI)"
       }
+    },
+    {
+      "projectID": 306612,
+      "fileID": 4702913,
+      "required": true,
+      "__meta": {
+        "name": "Fabric API"
+      }
     }
   ]
 }
