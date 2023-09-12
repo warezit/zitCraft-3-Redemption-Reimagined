@@ -7,7 +7,7 @@
     - [Rediscover, Rebuild, and Redeem](#rediscover-rebuild-and-redeem)
   - [\[For Developers\] More Info](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
-    - [Running the modpack](#running-the-modpack)
+    - [Creating a Server version of the modpack](#creating-a-server-version-of-the-modpack)
 
 ## Modpack Homepage
 **zitCraft 3: Redemption Reimagined**: https://www.curseforge.com/minecraft/modpacks/zitcraft-3
@@ -47,5 +47,7 @@ These steps show I created this modpack, so I can refer back to these steps late
 - Then [follow the rest of the Continuous Deployment setup here](https://github.com/froehlichA/pax/wiki/Automatic-releases). (Get an API Key and the CurseForge Project ID, then modify the GitHub action file we just created.)
 - Go here to find you CurseForge API Token: https://legacy.curseforge.com/account/api-tokens
 
-### Running the modpack
-ServerStarter: https://github.com/BloodyMods/ServerStarter
+### Creating a Server version of the modpack
+
+- ServerPackCreator: https://github.com/Griefed/ServerPackCreator
+- ServerStarter: https://github.com/BloodyMods/ServerStarter
