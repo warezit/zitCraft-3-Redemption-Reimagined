@@ -141,6 +141,17 @@
       }
     },
     {
+      "projectID": 263420,
+      "fileID": 4730954,
+      "required": true,
+      "__meta": {
+        "name": "Xaero's Minimap",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 273279,
       "fileID": 3907240,
       "required": true,
