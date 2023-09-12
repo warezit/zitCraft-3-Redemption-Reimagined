@@ -3,8 +3,8 @@
 
 - [zitCraft 3](#zitcraft-3)
   - [Description](#description)
-    - [**Key Features**](#key-features)
-    - [**Rediscover, Rebuild, and Redeem**](#rediscover-rebuild-and-redeem)
+    - [Key Features](#key-features)
+    - [Rediscover, Rebuild, and Redeem](#rediscover-rebuild-and-redeem)
   - [Modpack Homepage](#modpack-homepage)
   - [\[For Developers\] More Info](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
@@ -14,14 +14,14 @@
 
 Embark on a journey of redemption in zitCraft 3, a modpack that marks a triumphant return after a hiatus since 2015. This time, the adventure is imbued with the spirit of redemption, offering a fresh perspective on Minecraft's ever-evolving world.
 
-### **Key Features**
+### Key Features
 
--   **A Second Chance:** zitCraft 3 is more than just a modpack; it's a testament to the power of redemption. Rediscover the joy of Minecraft with a meticulously crafted collection of mods that breathe new life into the game.
--   **Themes of Redemption:** From the depths of forgotten dungeons to the soaring heights of rebuilt civilizations, every aspect of zitCraft 3 resonates with the theme of redemption. Unearth lost treasures, restore ancient relics, and witness the transformation of a world once in disarray.
--   **Forging New Paths:** This time, the journey is different. The challenges you faced in 2015 are but echoes of the past. In zitCraft 3, you'll navigate a world that has been redefined, offering fresh trials and triumphs for both new and returning players.
--   **Community-Driven Renaissance:** Your return marks a new chapter in the zitCraft legacy. Share your insights, suggestions, and experiences as we collectively breathe life back into this world of redemption.
+-   A Second Chance: zitCraft 3 is more than just a modpack; it's a testament to the power of redemption. Rediscover the joy of Minecraft with a meticulously crafted collection of mods that breathe new life into the game.
+-   Themes of Redemption: From the depths of forgotten dungeons to the soaring heights of rebuilt civilizations, every aspect of zitCraft 3 resonates with the theme of redemption. Unearth lost treasures, restore ancient relics, and witness the transformation of a world once in disarray.
+-   Forging New Paths: This time, the journey is different. The challenges you faced in 2015 are but echoes of the past. In zitCraft 3, you'll navigate a world that has been redefined, offering fresh trials and triumphs for both new and returning players.
+-   Community-Driven Renaissance: Your return marks a new chapter in the zitCraft legacy. Share your insights, suggestions, and experiences as we collectively breathe life back into this world of redemption.
 
-### **Rediscover, Rebuild, and Redeem**
+### Rediscover, Rebuild, and Redeem
 
 zitCraft 3 is an invitation to rekindle your passion for Minecraft, to forge a path of redemption in a world that welcomes you back with open arms. Are you ready to embark on this journey of renewal and rediscovery?
 
