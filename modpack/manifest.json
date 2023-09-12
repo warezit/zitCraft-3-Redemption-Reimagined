@@ -168,6 +168,17 @@
       }
     },
     {
+      "projectID": 296676,
+      "fileID": 4450955,
+      "required": true,
+      "__meta": {
+        "name": "Culinary Construct (Forge/Fabric/Quilt)",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 306612,
       "fileID": 4702913,
       "required": true,
@@ -182,6 +193,18 @@
       "__meta": {
         "name": "Fabric Language Kotlin",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 316873,
+      "fileID": 4521444,
+      "required": true,
+      "__meta": {
+        "name": "Charm of Undying (Fabric/Forge/Quilt)",
+        "dependencies": [
+          306612,
+          341284
+        ]
       }
     },
     {
@@ -201,6 +224,27 @@
       }
     },
     {
+      "projectID": 325492,
+      "fileID": 3832013,
+      "required": true,
+      "__meta": {
+        "name": "Light Overlay (Rift/Forge/Fabric)",
+        "dependencies": [
+          348521,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 326652,
+      "fileID": 4730032,
+      "required": true,
+      "__meta": {
+        "name": "Cupboard",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 335493,
       "fileID": 4744978,
       "required": true,
@@ -212,12 +256,29 @@
       }
     },
     {
+      "projectID": 341284,
+      "fileID": 4343755,
+      "required": true,
+      "__meta": {
+        "name": "Trinkets (Fabric)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 348521,
       "fileID": 4633414,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 358304,
+      "fileID": 4348798,
+      "required": true,
+      "__meta": {
+        "name": "Login Protection[Forge/Fabric]"
       }
     },
     {
@@ -240,6 +301,17 @@
       }
     },
     {
+      "projectID": 388800,
+      "fileID": 4618991,
+      "required": true,
+      "__meta": {
+        "name": "Polymorph (Fabric/Forge/Quilt)",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 412082,
       "fileID": 4717634,
       "required": true,
@@ -248,6 +320,18 @@
         "dependencies": [
           499980,
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 417510,
+      "fileID": 4101831,
+      "required": true,
+      "__meta": {
+        "name": "Falling Leaves (Fabric)",
+        "dependencies": [
+          306612,
+          348521
         ]
       }
     },
@@ -370,6 +454,17 @@
         "name": "Animatica",
         "dependencies": [
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 582327,
+      "fileID": 4748795,
+      "required": true,
+      "__meta": {
+        "name": "Server Performance - Smooth Chunk Save[Forge/Fabric]",
+        "dependencies": [
+          326652
         ]
       }
     },
