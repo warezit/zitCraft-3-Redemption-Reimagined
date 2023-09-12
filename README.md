@@ -5,7 +5,7 @@
   - [Modpack Homepage](#modpack-homepage)
   - [\[For Developers\] More Info](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
-    - [\[For Developers\] Running the](#for-developers-running-the)
+    - [Running the modpack](#running-the-modpack)
 
 ## Description
 Updates coming soon!
@@ -32,5 +32,5 @@ These steps show I created this modpack, so I can refer back to these steps late
 - Generate the appropriate GitHub action file for your project by running this command `.\pax init -f skip-manifest`. More info [here](https://github.com/froehlichA/pax/issues/26#issuecomment-864464285).
 - Then [follow the rest of the Continuous Deployment setup here](https://github.com/froehlichA/pax/wiki/Automatic-releases). (Get an API Key and the CurseForge Project ID, then modify the GitHub action file we just created.)
 
-### [For Developers] Running the 
+### Running the modpack
 ServerStarter: https://github.com/BloodyMods/ServerStarter
