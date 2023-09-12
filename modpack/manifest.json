@@ -160,11 +160,33 @@
       }
     },
     {
+      "projectID": 276951,
+      "fileID": 4449148,
+      "required": true,
+      "__meta": {
+        "name": "Comforts (Fabric/Forge/Quilt)",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
       "projectID": 280510,
       "fileID": 4635475,
       "required": true,
       "__meta": {
         "name": "AttributeFix"
+      }
+    },
+    {
+      "projectID": 296676,
+      "fileID": 4450955,
+      "required": true,
+      "__meta": {
+        "name": "Culinary Construct (Forge/Fabric/Quilt)",
+        "dependencies": [
+          306612
+        ]
       }
     },
     {
@@ -185,6 +207,30 @@
       }
     },
     {
+      "projectID": 316873,
+      "fileID": 4521444,
+      "required": true,
+      "__meta": {
+        "name": "Charm of Undying (Fabric/Forge/Quilt)",
+        "dependencies": [
+          306612,
+          341284
+        ]
+      }
+    },
+    {
+      "projectID": 317716,
+      "fileID": 4519314,
+      "required": true,
+      "__meta": {
+        "name": "Elytra Slot (Fabric/Forge/Quilt)",
+        "dependencies": [
+          306612,
+          341284
+        ]
+      }
+    },
+    {
       "projectID": 320163,
       "fileID": 3955823,
       "required": true,
@@ -201,6 +247,39 @@
       }
     },
     {
+      "projectID": 325492,
+      "fileID": 3832013,
+      "required": true,
+      "__meta": {
+        "name": "Light Overlay (Rift/Forge/Fabric)",
+        "dependencies": [
+          348521,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 326652,
+      "fileID": 4730032,
+      "required": true,
+      "__meta": {
+        "name": "Cupboard",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 334853,
+      "fileID": 4076568,
+      "required": true,
+      "__meta": {
+        "name": "Simple Discord Rich Presence (Forge /  Fabric)",
+        "dependencies": [
+          348521,
+          419699
+        ]
+      }
+    },
+    {
       "projectID": 335493,
       "fileID": 4744978,
       "required": true,
@@ -212,12 +291,45 @@
       }
     },
     {
+      "projectID": 341284,
+      "fileID": 4343755,
+      "required": true,
+      "__meta": {
+        "name": "Trinkets (Fabric)",
+        "explicit": false
+      }
+    },
+    {
       "projectID": 348521,
       "fileID": 4633414,
       "required": true,
       "__meta": {
         "name": "Cloth Config API (Fabric/Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 349559,
+      "fileID": 3968312,
+      "required": true,
+      "__meta": {
+        "name": "FallingTree (Forge&Fabric)"
+      }
+    },
+    {
+      "projectID": 358304,
+      "fileID": 4348798,
+      "required": true,
+      "__meta": {
+        "name": "Login Protection[Forge/Fabric]"
+      }
+    },
+    {
+      "projectID": 360438,
+      "fileID": 4439700,
+      "required": true,
+      "__meta": {
+        "name": "Lithium (Fabric)"
       }
     },
     {
@@ -240,6 +352,42 @@
       }
     },
     {
+      "projectID": 388800,
+      "fileID": 4618991,
+      "required": true,
+      "__meta": {
+        "name": "Polymorph (Fabric/Forge/Quilt)",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 410811,
+      "fileID": 4610351,
+      "required": true,
+      "__meta": {
+        "name": "FTB Essentials (Forge & Fabric)",
+        "dependencies": [
+          438495,
+          306612,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 410902,
+      "fileID": 4567225,
+      "required": true,
+      "__meta": {
+        "name": "Fabric Waystones",
+        "dependencies": [
+          306612,
+          532610
+        ]
+      }
+    },
+    {
       "projectID": 412082,
       "fileID": 4717634,
       "required": true,
@@ -252,6 +400,18 @@
       }
     },
     {
+      "projectID": 417510,
+      "fileID": 4101831,
+      "required": true,
+      "__meta": {
+        "name": "Falling Leaves (Fabric)",
+        "dependencies": [
+          306612,
+          348521
+        ]
+      }
+    },
+    {
       "projectID": 419699,
       "fileID": 4555748,
       "required": true,
@@ -260,6 +420,18 @@
         "explicit": false,
         "dependencies": [
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 438495,
+      "fileID": 4661833,
+      "required": true,
+      "__meta": {
+        "name": "FTB Library (Fabric)",
+        "explicit": false,
+        "dependencies": [
+          419699
         ]
       }
     },
@@ -310,11 +482,33 @@
       }
     },
     {
+      "projectID": 470193,
+      "fileID": 4689234,
+      "required": true,
+      "__meta": {
+        "name": "Connectivity[Forge/Fabric]",
+        "dependencies": [
+          326652
+        ]
+      }
+    },
+    {
       "projectID": 475358,
       "fileID": 4023319,
       "required": true,
       "__meta": {
         "name": "Better Mount HUD"
+      }
+    },
+    {
+      "projectID": 482834,
+      "fileID": 4712861,
+      "required": true,
+      "__meta": {
+        "name": "Farmer's Delight [Fabric]",
+        "dependencies": [
+          306612
+        ]
       }
     },
     {
@@ -342,6 +536,19 @@
       }
     },
     {
+      "projectID": 495476,
+      "fileID": 4600774,
+      "required": true,
+      "__meta": {
+        "name": "Puzzles Lib [Forge & Fabric]",
+        "explicit": false,
+        "dependencies": [
+          306612,
+          547434
+        ]
+      }
+    },
+    {
       "projectID": 499980,
       "fileID": 4702355,
       "required": true,
@@ -351,6 +558,27 @@
         "dependencies": [
           306612
         ]
+      }
+    },
+    {
+      "projectID": 500273,
+      "fileID": 4455249,
+      "required": true,
+      "__meta": {
+        "name": "Visual Workbench [Forge & Fabric]",
+        "dependencies": [
+          495476,
+          306612,
+          547434
+        ]
+      }
+    },
+    {
+      "projectID": 521480,
+      "fileID": 4001981,
+      "required": true,
+      "__meta": {
+        "name": "Skin Layers 3D (Fabric/Forge)"
       }
     },
     {
@@ -370,6 +598,41 @@
         "name": "Animatica",
         "dependencies": [
           306612
+        ]
+      }
+    },
+    {
+      "projectID": 547434,
+      "fileID": 4401535,
+      "required": true,
+      "__meta": {
+        "name": "Forge Config API Port [Fabric]",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 582327,
+      "fileID": 4748795,
+      "required": true,
+      "__meta": {
+        "name": "Server Performance - Smooth Chunk Save[Forge/Fabric]",
+        "dependencies": [
+          326652
+        ]
+      }
+    },
+    {
+      "projectID": 615106,
+      "fileID": 4596349,
+      "required": true,
+      "__meta": {
+        "name": "Lootr (Fabric)",
+        "dependencies": [
+          306612,
+          348521
         ]
       }
     },
