@@ -41,8 +41,9 @@ This project uses PAX to manage the modpack: https://github.com/froehlichA/pax
 
 These steps show I created this modpack, so I can refer back to these steps later if needed. These steps may work for you, or may not. YMMV.
 
-- Make a new folder
-- Download PAX, then extract the .ZIP to the folder you just created
+- Make a new folder called `my-modpack` (no spaces or special characters)
+- Download PAX to the folder you just created
+- Extract the .ZIP into the same folder
 - Run `.\pax.exe init` to initialize the modpack file structure
 - For Fabric modpacks, run this to install the FabricAPI mod (required for any Fabric modpacks) `.\pax.exe add https://www.curseforge.com/minecraft/mc-mods/fabric-api`
 - List the current mods by running `.\pax.exe list`
