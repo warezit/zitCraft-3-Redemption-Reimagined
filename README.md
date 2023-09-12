@@ -6,13 +6,13 @@ Updates coming soon!
 ## Modpack Homepage
 zitCraft 3: https://legacy.curseforge.com/minecraft/modpacks/zitcraft-3
 
-## More Info
+## [For Developers] More Info
 
 This project uses PAX to manage the modpack: https://github.com/froehlichA/pax
 - Download PAX, then extract to the root folder of the repo.
 - PAX *must* be run from the root folder of the repo.
 
-### [For Developers] How to create a NEW modpack using PAX
+### How to create a NEW modpack using PAX
 
 These steps show I created this modpack, so I can refer back to these steps later if needed. These steps may work for you, or may not. YMMV.
 
