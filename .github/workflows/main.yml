@@ -3,10 +3,10 @@ name: main
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 env:
-  PROJECT_ID: "123456"
+  PROJECT_ID: "912352"
 
 jobs:
   modpack-info:
@@ -21,11 +21,11 @@ jobs:
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=`cat ./modpack/manifest.json`
-            projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
+          manifestjson=`cat ./modpack/manifest.json`
+          projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
+          echo "::set-output name=projectname::$projectname"
+          version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
+          echo "::set-output name=version::$version"
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
@@ -67,7 +67,7 @@ jobs:
         with:
           name: changelog
       - name: Move changelog
-        run:  mv ./CHANGELOG.md ./modpack/CHANGELOG.md
+        run: mv ./CHANGELOG.md ./modpack/CHANGELOG.md
       - name: Export modpack
         run: |
           sudo chmod +x ./pax
@@ -80,7 +80,7 @@ jobs:
         with:
           name: modpack
           path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-  
+
   release-github:
     runs-on: ubuntu-latest
     needs: [build, changelog, modpack-info]
@@ -128,5 +128,5 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}" 
+          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
