@@ -6,7 +6,7 @@
     - [Key Features](#key-features)
     - [Rediscover, Rebuild, and Redeem](#rediscover-rebuild-and-redeem)
     - [Modlist](#modlist)
-  - [\[For Developers\] More Info](#for-developers-more-info)
+  - [\[For Developers: More Info\]](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
     - [Creating a server-version of the modpack](#creating-a-server-version-of-the-modpack)
 
@@ -31,7 +31,7 @@ Embark on a journey of redemption in **zitCraft 3: Redemption Reimagined**, a mo
 ### Modlist
 - https://docs.google.com/spreadsheets/d/1Y0oqPrOD18isit4Sr8aBan5G50fOw5EKw0mCBNaNGOo/edit?usp=sharing
 
-## [For Developers] More Info
+## [For Developers: More Info] 
 
 This project uses PAX to manage the modpack: https://github.com/froehlichA/pax
 - Download PAX, then extract to the root folder of the repo.
