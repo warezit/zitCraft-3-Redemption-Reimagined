@@ -19,10 +19,10 @@ Embark on a journey of redemption in **zitCraft 3: Redemption Reimagined**, a mo
 
 ### Key Features
 
--   A Second Chance: **zitCraft 3: Redemption Reimagined** is more than just a modpack; it's a testament to the power of redemption. Rediscover the joy of Minecraft with a meticulously crafted collection of mods that breathe new life into the game.
--   Themes of Redemption: From the depths of forgotten dungeons to the soaring heights of rebuilt civilizations, every aspect of **zitCraft 3: Redemption Reimagined** resonates with the theme of redemption. Unearth lost treasures, restore ancient relics, and witness the transformation of a world once in disarray.
--   Forging New Paths: This time, the journey is different. The challenges you faced in 2015 are but echoes of the past. In **zitCraft 3: Redemption Reimagined**, you'll navigate a world that has been redefined, offering fresh trials and triumphs for both new and returning players.
--   Community-Driven Renaissance: Your return marks a new chapter in the zitCraft legacy. Share your insights, suggestions, and experiences as we collectively breathe life back into this world of redemption.
+-   **A Second Chance**: **zitCraft 3: Redemption Reimagined** is more than just a modpack; it's a testament to the power of redemption. Rediscover the joy of Minecraft with a meticulously crafted collection of mods that breathe new life into the game.
+-   **Themes of Redemption**: From the depths of forgotten dungeons to the soaring heights of rebuilt civilizations, every aspect of **zitCraft 3: Redemption Reimagined** resonates with the theme of redemption. Unearth lost treasures, restore ancient relics, and witness the transformation of a world once in disarray.
+-   **Forging New Paths**: This time, the journey is different. The challenges you faced in 2015 are but echoes of the past. In **zitCraft 3: Redemption Reimagined**, you'll navigate a world that has been redefined, offering fresh trials and triumphs for both new and returning players.
+-   **Community-Driven Renaissance**: Your return marks a new chapter in the zitCraft legacy. Share your insights, suggestions, and experiences as we collectively breathe life back into this world of redemption.
 
 ### Rediscover, Rebuild, and Redeem
 
