@@ -3,7 +3,7 @@ name: main
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 env:
   PROJECT_ID: "912352"
@@ -12,32 +12,20 @@ jobs:
   modpack-info:
     runs-on: ubuntu-latest
     outputs:
-      version: ${{ steps.info.outputs.version }}
-      loader: ${{ steps.info.outputs.loader }}
       projectname: ${{ steps.info.outputs.projectname }}
+      version: ${{ steps.info.outputs.version }}
+      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get modpack info
         id: info
         run: |
-            manifestjson=`cat ./modpack/manifest.json`
-            version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "::set-output name=version::$version"
-            loader=`echo $(jq -r '.minecraft.modLoaders[0].id' <<< "$manifestjson")`
-            loader=`echo ${loader%%-*}`
-            loader="$(tr '[:lower:]' '[:upper:]' <<< ${loader:0:1})${loader:1}"
-            echo "::set-output name=loader::$loader"
-            projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-            echo "::set-output name=projectname::$projectname"
-
-  get-tag:
-    runs-on: ubuntu-latest
-    outputs:
-      tag: ${{ steps.version.outputs.tag }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+          manifestjson=`cat ./modpack/manifest.json`
+          projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
+          echo "::set-output name=projectname::$projectname"
+          version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
+          echo "::set-output name=version::$version"
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
@@ -64,7 +52,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    needs: [changelog, get-tag, modpack-info]
+    needs: [changelog, modpack-info]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -78,22 +66,24 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: changelog
+      - name: Move changelog
+        run: mv ./CHANGELOG.md ./modpack/CHANGELOG.md
       - name: Export modpack
         run: |
           sudo chmod +x ./pax
           ./pax export
       - name: Rename zip
         run: |
-          mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.get-tag.outputs.tag }}.zip
+          mv .out/${{ needs.modpack-info.outputs.projectname }}.zip .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
       - name: Upload zip
         uses: actions/upload-artifact@v2
         with:
           name: modpack
-          path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.get-tag.outputs.tag }}.zip
-  
+          path: .out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+
   release-github:
     runs-on: ubuntu-latest
-    needs: [build, changelog, get-tag, modpack-info]
+    needs: [build, changelog, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v2
@@ -107,13 +97,13 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: CHANGELOG.md
-          files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.get-tag.outputs.tag }}.zip
+          files: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   release-curseforge:
     runs-on: ubuntu-latest
-    needs: [build, changelog, get-tag, modpack-info]
+    needs: [build, changelog, modpack-info]
     steps:
       - name: Download modpack
         uses: actions/download-artifact@v2
@@ -123,7 +113,7 @@ jobs:
         id: release-type
         run: |
           rel_type="release"
-          case "${{ needs.get-tag.outputs.tag }}" in
+          case "${{ needs.modpack-info.outputs.tag }}" in
             *alpha*) rel_type="alpha" ;;
             *beta*) rel_type="beta" ;;
             *) rel_type="release" ;;
@@ -135,8 +125,8 @@ jobs:
           token: ${{ secrets.CF_API_TOKEN }}
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
-          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.get-tag.outputs.tag }}.zip
+          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: ${{ needs.modpack-info.outputs.version }}
+          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}"
           release_type: ${{ steps.release-type.outputs.type }}
