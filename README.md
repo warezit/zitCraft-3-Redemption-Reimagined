@@ -32,6 +32,7 @@ These steps show I created this modpack, so I can refer back to these steps late
 - Generate the appropriate GitHub action file for your project by running this command `.\pax init -f skip-manifest`. More info [here](https://github.com/froehlichA/pax/issues/26#issuecomment-864464285).
 - Then [follow the rest of the Continuous Deployment setup here](https://github.com/froehlichA/pax/wiki/Automatic-releases). (Get an API Key and the CurseForge Project ID, then modify the GitHub action file we just created.)
 - Go here to find you CurseForge API Token: https://legacy.curseforge.com/account/api-tokens
+- Go to `Settings > Actions > General > Workflow permissions` and enable `Read and write permissions` and also enable the checkbox for `Allow GitHub Actions to create and approve pull requests`. [More info here](https://github.com/softprops/action-gh-release/issues/366#issuecomment-1599396365).
 
 ### Running the modpack
 ServerStarter: https://github.com/BloodyMods/ServerStarter
