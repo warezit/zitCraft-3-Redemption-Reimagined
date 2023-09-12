@@ -5,9 +5,12 @@ on:
     tags:
       - 'v*'
 
+
+
 env:
   APP_NAME: 'pax'
   NIM_VERSION: '1.6.4'
+  PROJECT_ID: "912352"
 
 jobs:
   test:
