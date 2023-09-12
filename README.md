@@ -8,6 +8,9 @@
     - [Modlist](#modlist)
   - [\[For Developers: More Info\]](#for-developers-more-info)
     - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
+      - [Get PAX](#get-pax)
+      - [Initialize the modpack, mods, and GitHub actions file](#initialize-the-modpack-mods-and-github-actions-file)
+      - [Automatic Deployment](#automatic-deployment)
     - [Creating a server-version of the modpack](#creating-a-server-version-of-the-modpack)
 
 ## Modpack Homepage
@@ -41,14 +44,22 @@ This project uses PAX to manage the modpack: https://github.com/froehlichA/pax
 
 These steps show I created this modpack, so I can refer back to these steps later if needed. These steps may work for you, or may not. YMMV.
 
+#### Get PAX
+
 - Make a new folder called `my-modpack` (no spaces or special characters)
-- Download PAX to the folder you just created
-- Extract the .ZIP into the same folder
+- [Download PAX](https://github.com/froehlichA/pax/releases) to the folder you just created
+- Extract the .ZIP file to the same folder (not in a sub-folder)
+
+#### Initialize the modpack, mods, and GitHub actions file
+
 - Run `.\pax.exe init` to initialize the modpack file structure
 - For Fabric modpacks, run this to install the FabricAPI mod (required for any Fabric modpacks) `.\pax.exe add https://www.curseforge.com/minecraft/mc-mods/fabric-api`
 - List the current mods by running `.\pax.exe list`
 - Export the modpack by running `.\pax.exe export`. This will generate a new folder named `.old` (required for using Automatic Deployment later), then export a .zip file of the modpack.
 - Generate the appropriate GitHub action file for your project by running this command `.\pax init -f skip-manifest`. More info [here](https://github.com/froehlichA/pax/issues/26#issuecomment-864464285).
+
+#### Automatic Deployment
+
 - Then [follow the rest of the Continuous Deployment setup here](https://github.com/froehlichA/pax/wiki/Automatic-releases). (Get an API Key and the CurseForge Project ID, then modify the GitHub action file we just created.)
 - Go here to find you CurseForge API Token: https://legacy.curseforge.com/account/api-tokens
 - Go to your repo's `Settings > Actions > General > Workflow permissions`. Enable two options: `Read and write permissions` and `Allow GitHub Actions to create and approve pull requests`.
