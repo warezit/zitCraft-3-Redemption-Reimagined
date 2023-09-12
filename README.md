@@ -51,7 +51,7 @@ These steps show I created this modpack, so I can refer back to these steps late
 - Generate the appropriate GitHub action file for your project by running this command `.\pax init -f skip-manifest`. More info [here](https://github.com/froehlichA/pax/issues/26#issuecomment-864464285).
 - Then [follow the rest of the Continuous Deployment setup here](https://github.com/froehlichA/pax/wiki/Automatic-releases). (Get an API Key and the CurseForge Project ID, then modify the GitHub action file we just created.)
 - Go here to find you CurseForge API Token: https://legacy.curseforge.com/account/api-tokens
-- Go your repo's `Settings > Actions > General > Workflow permissions`. Enable two options: `Read and write permissions` and `Allow GitHub Actions to create and approve pull requests`.
+- Go to your repo's `Settings > Actions > General > Workflow permissions`. Enable two options: `Read and write permissions` and `Allow GitHub Actions to create and approve pull requests`.
 
 ### Creating a server-version of the modpack
 
