@@ -1,5 +1,12 @@
 # zitCraft 3
 
+- [zitCraft 3](#zitcraft-3)
+  - [Description](#description)
+  - [Modpack Homepage](#modpack-homepage)
+  - [\[For Developers\] More Info](#for-developers-more-info)
+    - [How to create a NEW modpack using PAX](#how-to-create-a-new-modpack-using-pax)
+    - [\[For Developers\] Running the](#for-developers-running-the)
+
 ## Description
 Updates coming soon!
 
