@@ -16,6 +16,41 @@
   "name": "zitCraft-3",
   "files": [
     {
+      "projectID": 32274,
+      "fileID": 4532890,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap"
+      }
+    },
+    {
+      "projectID": 60089,
+      "fileID": 3828448,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
+      "projectID": 227639,
+      "fileID": 4490392,
+      "required": true,
+      "__meta": {
+        "name": "The Twilight Forest",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 228525,
+      "fileID": 4556696,
+      "required": true,
+      "__meta": {
+        "name": "Bookshelf"
+      }
+    },
+    {
       "projectID": 238222,
       "fileID": 4712863,
       "required": true,
@@ -24,11 +59,345 @@
       }
     },
     {
+      "projectID": 240630,
+      "fileID": 4689031,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Resources (JER)"
+      }
+    },
+    {
+      "projectID": 248787,
+      "fileID": 3927567,
+      "required": true,
+      "__meta": {
+        "name": "AppleSkin",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 250398,
+      "fileID": 4050342,
+      "required": true,
+      "__meta": {
+        "name": "Controlling"
+      }
+    },
+    {
+      "projectID": 250419,
+      "fileID": 4736544,
+      "required": true,
+      "__meta": {
+        "name": "Enchantment Descriptions",
+        "dependencies": [
+          228525
+        ]
+      }
+    },
+    {
+      "projectID": 252848,
+      "fileID": 4118387,
+      "required": true,
+      "__meta": {
+        "name": "Nature's Compass"
+      }
+    },
+    {
+      "projectID": 254284,
+      "fileID": 4126141,
+      "required": true,
+      "__meta": {
+        "name": "AmbientSounds 5",
+        "dependencies": [
+          257814
+        ]
+      }
+    },
+    {
+      "projectID": 256717,
+      "fileID": 4153346,
+      "required": true,
+      "__meta": {
+        "name": "Clumps"
+      }
+    },
+    {
+      "projectID": 257814,
+      "fileID": 4584604,
+      "required": true,
+      "__meta": {
+        "name": "CreativeCore",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 273279,
+      "fileID": 3907240,
+      "required": true,
+      "__meta": {
+        "name": "AntiGhost"
+      }
+    },
+    {
+      "projectID": 280510,
+      "fileID": 4635475,
+      "required": true,
+      "__meta": {
+        "name": "AttributeFix"
+      }
+    },
+    {
       "projectID": 306612,
       "fileID": 4702913,
       "required": true,
       "__meta": {
         "name": "Fabric API"
+      }
+    },
+    {
+      "projectID": 308769,
+      "fileID": 4719981,
+      "required": true,
+      "__meta": {
+        "name": "Fabric Language Kotlin",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 320163,
+      "fileID": 3955823,
+      "required": true,
+      "__meta": {
+        "name": "Ambient Environment"
+      }
+    },
+    {
+      "projectID": 324717,
+      "fileID": 4328558,
+      "required": true,
+      "__meta": {
+        "name": "Jade 🔍"
+      }
+    },
+    {
+      "projectID": 335493,
+      "fileID": 4744978,
+      "required": true,
+      "__meta": {
+        "name": "Dynamic FPS",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 348521,
+      "fileID": 4633414,
+      "required": true,
+      "__meta": {
+        "name": "Cloth Config API (Fabric/Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 361579,
+      "fileID": 4505310,
+      "required": true,
+      "__meta": {
+        "name": "spark"
+      }
+    },
+    {
+      "projectID": 388172,
+      "fileID": 4407239,
+      "required": true,
+      "__meta": {
+        "name": "GeckoLib",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 412082,
+      "fileID": 4717634,
+      "required": true,
+      "__meta": {
+        "name": "Supplementaries",
+        "dependencies": [
+          499980,
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 419699,
+      "fileID": 4555748,
+      "required": true,
+      "__meta": {
+        "name": "Architectury API (Fabric/Forge)",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 439890,
+      "fileID": 4659779,
+      "required": true,
+      "__meta": {
+        "name": "Create Crafts & Additions",
+        "dependencies": [
+          624165
+        ]
+      }
+    },
+    {
+      "projectID": 448233,
+      "fileID": 4404950,
+      "required": true,
+      "__meta": {
+        "name": "Entity Culling Fabric/Forge",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 452046,
+      "fileID": 4046700,
+      "required": true,
+      "__meta": {
+        "name": "Enhanced Block Entities",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 475358,
+      "fileID": 4023319,
+      "required": true,
+      "__meta": {
+        "name": "Better Mount HUD"
+      }
+    },
+    {
+      "projectID": 487364,
+      "fileID": 4546035,
+      "required": true,
+      "__meta": {
+        "name": "Architect's Palette [FABRIC]",
+        "dependencies": [
+          306612,
+          532610
+        ]
+      }
+    },
+    {
+      "projectID": 494206,
+      "fileID": 4630932,
+      "required": true,
+      "__meta": {
+        "name": "Create Chunkloading",
+        "dependencies": [
+          348521,
+          419699
+        ]
+      }
+    },
+    {
+      "projectID": 499980,
+      "fileID": 4702355,
+      "required": true,
+      "__meta": {
+        "name": "Moonlight Lib",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 532610,
+      "fileID": 4152949,
+      "required": true,
+      "__meta": {
+        "name": "oωo (owo-lib)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 533006,
+      "fileID": 3844732,
+      "required": true,
+      "__meta": {
+        "name": "Animatica",
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 624165,
+      "fileID": 4721055,
+      "required": true,
+      "__meta": {
+        "name": "Create Fabric",
+        "explicit": false,
+        "dependencies": [
+          306612
+        ]
+      }
+    },
+    {
+      "projectID": 649832,
+      "fileID": 4655214,
+      "required": true,
+      "__meta": {
+        "name": "Create Ore Excavation",
+        "dependencies": [
+          624165
+        ]
+      }
+    },
+    {
+      "projectID": 655608,
+      "fileID": 4729272,
+      "required": true,
+      "__meta": {
+        "name": "Create Jetpack",
+        "dependencies": [
+          624165,
+          308769
+        ]
+      }
+    },
+    {
+      "projectID": 659674,
+      "fileID": 4741034,
+      "required": true,
+      "__meta": {
+        "name": "Create Slice & Dice",
+        "dependencies": [
+          624165,
+          308769
+        ]
+      }
+    },
+    {
+      "projectID": 849519,
+      "fileID": 4715350,
+      "required": true,
+      "__meta": {
+        "name": "e4mc",
+        "dependencies": [
+          306612,
+          308769
+        ]
       }
     }
   ]
