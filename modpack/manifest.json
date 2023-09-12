@@ -1,0 +1,27 @@
+{
+  "minecraft": {
+    "version": "1.19.2",
+    "modLoaders": [
+      {
+        "id": "fabric-0.14.22",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "3.0.0",
+  "author": "warezit",
+  "name": "zitCraft 3",
+  "files": [
+    {
+      "projectID": 238222,
+      "fileID": 4712863,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    }
+  ]
+}
