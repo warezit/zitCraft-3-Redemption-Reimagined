@@ -10,7 +10,7 @@
     - [Running the modpack](#running-the-modpack)
 
 ## Modpack Homepage
-zitCraft 3: Redemption Reimagined: https://legacy.curseforge.com/minecraft/modpacks/zitcraft-3
+zitCraft 3: Redemption Reimagined: https://www.curseforge.com/minecraft/modpacks/zitcraft-3
 
 ## Description
 
