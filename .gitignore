@@ -6,4 +6,4 @@ libcrypto*.dll
 cacert.pem
 
 ### Modpack ###
-.out/
+# .out/
