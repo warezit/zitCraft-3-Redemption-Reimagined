@@ -31,6 +31,7 @@ These steps show I created this modpack, so I can refer back to these steps late
 - Export the modpack by running `.\pax.exe export`. This will generate a new folder named `.old` (required for using Automatic Deployment later), then export a .zip file of the modpack.
 - Generate the appropriate GitHub action file for your project by running this command `.\pax init -f skip-manifest`. More info [here](https://github.com/froehlichA/pax/issues/26#issuecomment-864464285).
 - Then [follow the rest of the Continuous Deployment setup here](https://github.com/froehlichA/pax/wiki/Automatic-releases). (Get an API Key and the CurseForge Project ID, then modify the GitHub action file we just created.)
+- Go here to find you CurseForge API Token: https://legacy.curseforge.com/account/api-tokens
 
 ### Running the modpack
 ServerStarter: https://github.com/BloodyMods/ServerStarter
