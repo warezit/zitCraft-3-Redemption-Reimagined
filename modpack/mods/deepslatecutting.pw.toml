@@ -1,0 +1,13 @@
+name = "DeepslateCutting"
+filename = "deepslatecutting-fabric-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22555f596538aff101ae85a69b186050599dfaa2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4015317
+project-id = 504899

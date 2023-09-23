@@ -1,0 +1,13 @@
+name = "zitCraft-3"
+author = "warezit"
+version = "3.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a116549883fad40a1a175bccd675705eaba70f86dd2f187e1f148e33db78a6f1"
+
+[versions]
+fabric = "0.14.22"
+minecraft = "1.19.2"

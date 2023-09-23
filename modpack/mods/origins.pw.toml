@@ -1,0 +1,13 @@
+name = "Origins (Fabric)"
+filename = "Origins-1.19.2-1.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1410b30daeb585da247d0c48a3a9fe2f650fede"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4044263
+project-id = 391943

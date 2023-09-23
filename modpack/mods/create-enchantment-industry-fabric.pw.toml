@@ -1,0 +1,13 @@
+name = "Create Enchantment Industry Fabric"
+filename = "create_enchantment_industry-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c996eeddd04395787b11336c80025083b6f3f7f9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4708849
+project-id = 876129
